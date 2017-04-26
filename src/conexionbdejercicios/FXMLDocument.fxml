@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="346.0" prefWidth="393.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="conexionbdejercicios.FXMLDocumentController">
+    <children>
+        <Button fx:id="ButtonGuardar" layoutX="37.0" layoutY="288.0" onAction="#ActionButtonGuardar" text="Guardar" />
+      <Label fx:id="LabelComunidad" layoutX="37.0" layoutY="191.0" prefHeight="14.0" prefWidth="69.0" text="Comunidad" />
+      <Label fx:id="LabelConectado" layoutX="268.0" layoutY="291.0" prefHeight="18.0" prefWidth="76.0" text="Conectado" textFill="#39ff02">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabeDesconectado" layoutX="256.0" layoutY="291.0" prefHeight="18.0" prefWidth="101.0" text="Desconectado" textFill="#ff0303">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextFieldComunidad" layoutX="127.0" layoutY="187.0" prefHeight="25.0" prefWidth="213.0" promptText="Introduce la Comunidad del parque" />
+      <TextField fx:id="TextFliedID" layoutX="126.0" layoutY="52.0" prefHeight="25.0" prefWidth="213.0" promptText="Introduce la ID del parque " />
+      <Label fx:id="LabelID" layoutX="36.0" layoutY="50.0" prefHeight="29.0" prefWidth="82.0" text="ID del parque" />
+      <Label fx:id="LabelNombre" layoutX="36.0" layoutY="100.0" prefHeight="17.0" prefWidth="82.0" text="Nombre" />
+      <Label fx:id="LabelExtension" layoutX="36.0" layoutY="146.0" prefHeight="17.0" prefWidth="82.0" text="Extensión" />
+      <TextField fx:id="TextFliedNombre" layoutX="126.0" layoutY="96.0" prefHeight="25.0" prefWidth="213.0" promptText="Introduce el nombre del parque " />
+      <TextField fx:id="TextFliedExtension" layoutX="126.0" layoutY="142.0" prefHeight="25.0" prefWidth="213.0" promptText="Introduce la extensión del parque " />
+    </children>
+</AnchorPane>
