@@ -1,5 +1,5 @@
 
-package conexionbdejercicios;
+package Modelo;
 
 /* @author Álvaro García Fernández */
 public class Comunidad {
